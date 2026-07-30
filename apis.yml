@@ -1,7 +1,28 @@
 aid: memora
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/memora.png
 name: Memora
-description: Memora is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Memora Health is a healthcare technology company (now part of Commure) that
+  digitizes and automates complex care programs for health systems, payors, and
+  digital health partners. Its AI-backed platform mends fragmented clinical
+  workflows, powers top-of-license care, and engages patients across maternal,
+  surgical, gastrointestinal, cancer, chronic, population-health, and
+  transitions-of-care programs through intelligent care navigation, remote
+  patient monitoring, automated check-ins, and patient-reported outcomes
+  collection. Added to the API Evangelist network as an a16z portfolio lead;
+  the company publishes no public API, developer portal, or documentation, so
+  there is no API surface to enrich at this time.
 url: https://raw.githubusercontent.com/api-evangelist/memora/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Health Technology
+- Care Management
+- Patient Engagement
+- Remote Patient Monitoring
+- Digital Health
+- Artificial Intelligence
 apis: []
+common:
+- type: Website
+  url: https://www.memorahealth.com
+- type: Blog
+  url: https://www.memorahealth.com/legacy/news-category/blog-posts
+- type: PrivacyPolicy
+  url: https://www.memorahealth.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.memorahealth.com/legal/terms-of-service
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
